@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     EditText et1,et2,et3;
     TextView emiresult;
-    Button bmicalculate;
+    Button emicalculate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         et1 = findViewById(R.id.loan);
         et2  = findViewById(R.id.rate);
         et3 = findViewById(R.id.timeinstallment);
-        bmicalculate =findViewById(R.id.bmicalculate);
+        emicalculate =findViewById(R.id.emicalculate);
         emiresult =findViewById(R.id.emiresult);
 
-        bmicalculate.setOnClickListener (this);
+        emicalculate.setOnClickListener (this);
     }
 
 

@@ -58,7 +58,7 @@
         android:layout_marginLeft="10dp"
         android:hint="Enter no of monthly installment"/>
     <Button
-        android:id="@+id/bmicalculate"
+        android:id="@+id/emicalculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
